@@ -1,0 +1,19 @@
+{
+  "name": "@microappui/button",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/microappui-button.umd.js",
+  "module": "./dist/microappui-button.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/microappui-button.umd.js",
+      "module": "./dist/microappui-button.mjs"
+    }
+  },
+  "dependencies": {
+    "@microappui/shared": "workspace:^"
+  }
+}

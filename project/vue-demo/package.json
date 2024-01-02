@@ -1,0 +1,12 @@
+{
+  "name": "@microappui/demo",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "dependencies": {
+    "@microappui/ui": "workspace:^"
+  },
+  "devDependencies": {
+  }
+}

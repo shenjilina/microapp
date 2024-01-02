@@ -1,0 +1,20 @@
+{
+  "name": "@microappui/shared",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/microappui-shared.umd.js",
+  "module": "./dist/microappui-shared.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/microappui-shared.umd.js",
+      "module": "./dist/microappui-shared.mjs"
+    }
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.202",
+    "lodash": "^4.17.21"
+  }
+}
