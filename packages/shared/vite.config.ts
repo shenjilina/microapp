@@ -2,7 +2,7 @@
  * @Author: shenjilin-home
  * @Date: 2023-12-26 21:15:18
  * @LastEditors: shenjilin-home
- * @LastEditTime: 2023-12-26 21:21:08
+ * @LastEditTime: 2024-01-02 22:13:38
  * @Description: packages/shared/vite.config.ts
  */
 import { defineConfig } from 'vite'
@@ -21,7 +21,7 @@ export default defineConfig({
       // formats: ['es', 'umd'],
 
       // 当产物为 umd、iife 格式时，该模块暴露的全局变量名称
-      name: 'OpenxuiShared',
+      name: 'MicroappuiShared',
       // 产物文件名称
       fileName: 'microappui-shared',
     },

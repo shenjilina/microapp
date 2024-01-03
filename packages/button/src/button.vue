@@ -2,7 +2,7 @@
  * @Author: shenjilin-home
  * @Date: 2023-12-26 21:29:08
  * @LastEditors: shenjilin-home
- * @LastEditTime: 2023-12-26 21:30:07
+ * @LastEditTime: 2024-01-03 22:58:47
  * @Description: 
 -->
 <script setup lang="ts">
@@ -22,6 +22,6 @@ function clickHandler() {
 
 <template>
   <button class="openx-button" @click="clickHandler">
-    <slot></slot>
+    <slot></slot>123abc
   </button>
 </template>
