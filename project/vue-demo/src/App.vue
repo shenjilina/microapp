@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {
-  Button
+  Button,
 } from '@microappui/ui';
 </script>
 
