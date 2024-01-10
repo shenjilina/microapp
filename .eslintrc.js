@@ -19,11 +19,7 @@ module.exports = defineConfig({
   },
 
   // 集成 Airbnb 规则集以及 vue 相关规则
-  extends: [
-    'airbnb-base',
-    'airbnb-typescript/base',
-    'plugin:vue/vue3-recommended',
-  ],
+  extends: ['airbnb-base', 'airbnb-typescript/base', 'plugin:vue/vue3-recommended'],
 
   // 指定 vue 解析器
   parser: 'vue-eslint-parser',
@@ -62,16 +58,15 @@ module.exports = defineConfig({
 
     // 换行符不作约束
     'linebreak-style': 'off',
+    'no-use-before-define': 'off',
+    'import/no-relative-packages': 'off',
   },
 
   // 文件级别的重写
   overrides: [
     // 对于 vite 和 vitest 的配置文件，不对 console.log 进行错误提示
     {
-      files: [
-        '**/vite.config.*',
-        '**/vitest.config.*',
-      ],
+      files: ['**/vite.config.*', '**/vitest.config.*'],
       rules: {
         'no-console': 'off',
       },

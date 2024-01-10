@@ -1,0 +1,35 @@
+{
+  "name": "@microappui/build",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/microappui-build.umd.js",
+  "module": "./dist/microappui-build.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/microappui-build.umd.js",
+      "import": "./dist/microappui-build.mjs",
+      "types": "./dist/src/index.d.ts"
+    }
+  },
+  "peerDependencies": {
+    "vite": ">=3.0.0",
+    "vue": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "type-fest": "^4.9.0",
+    "typescript": "~5.3.0",
+    "vite-plugin-inspect": "^0.8.1"
+  },
+  "types": "./dist/src/index.d.ts"
+}
