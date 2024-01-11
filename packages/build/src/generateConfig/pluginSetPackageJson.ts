@@ -2,10 +2,9 @@
  * @Author: shenjilin-home
  * @Date: 2024-01-10 21:55:33
  * @LastEditors: shenjilin-home
- * @LastEditTime: 2024-01-10 21:56:31
+ * @LastEditTime: 2024-01-11 23:10:28
  * @Description:
  */
-// packages/build/src/generateConfig/pluginSetPackageJson.ts
 import { PluginOption } from 'vite';
 import { PackageJson } from 'type-fest';
 import { basename } from 'node:path';

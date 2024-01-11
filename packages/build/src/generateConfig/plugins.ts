@@ -2,7 +2,7 @@
  * @Author: shenjilin-home
  * @Date: 2024-01-06 10:38:09
  * @LastEditors: shenjilin-home
- * @LastEditTime: 2024-01-10 22:07:36
+ * @LastEditTime: 2024-01-11 23:09:32
  * @Description:
  */
 // packages/build/src/generateConfig/plugins.ts
@@ -60,7 +60,6 @@ export function getPresetPlugins(options: GenerateConfigPluginsOptions = {}) {
     getPresetPlugin(options, 'pluginVisualizer', visualizer),
     getPresetPlugin(options, 'pluginReplace', replace),
   );
-
   return result;
 }
 
@@ -104,6 +103,5 @@ export function getPresetPlugin<K extends keyof GenerateConfigPluginsOptions>(
   if (!value) {
     return null;
   }
-
   return plugin(isObjectLike(value) ? value : defaultOptions);
 }

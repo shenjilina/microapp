@@ -2,7 +2,7 @@
  * @Author: shenjilin-home
  * @Date: 2024-01-10 21:57:25
  * @LastEditors: shenjilin-home
- * @LastEditTime: 2024-01-10 22:12:24
+ * @LastEditTime: 2024-01-11 23:20:23
  * @Description:
  */
 import { UserConfig } from 'vite';
@@ -20,6 +20,16 @@ export function generateConfig(
   return baseGenerateConfig({
     // 指定 d.ts 文件相关 tsconfig 的位置
     dts: absCwd('../../tsconfig.src.json'),
+    ...customOptions,
+  }, viteConfig);
+}
+/** 构建 Vue 组件模块的预设 */
+export function generateVueConfig(
+  customOptions?: GenerateConfigOptions,
+  viteConfig?: UserConfig,
+) {
+  return generateConfig({
+    pluginVue: true,
     ...customOptions,
   }, viteConfig);
 }

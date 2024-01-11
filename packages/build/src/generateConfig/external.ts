@@ -2,10 +2,9 @@
  * @Author: shenjilin-home
  * @Date: 2024-01-10 21:53:43
  * @LastEditors: shenjilin-home
- * @LastEditTime: 2024-01-10 21:53:47
- * @Description:
+ * @LastEditTime: 2024-01-11 22:54:55
+ * @Description: 生成 build.rollupOptions
  */
-// packages/build/src/generateConfig/external.ts
 import { PackageJson } from 'type-fest';
 import { getOptions, GenerateConfigOptions } from './options';
 

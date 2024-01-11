@@ -10,11 +10,13 @@
   "exports": {
     ".": {
       "require": "./dist/microappui-shared.umd.js",
-      "module": "./dist/microappui-shared.mjs"
+      "import": "./dist/microappui-shared.mjs",
+      "types": "./dist/src/index.d.ts"
     }
   },
   "dependencies": {
     "@types/lodash": "^4.14.202",
     "lodash": "^4.17.21"
-  }
+  },
+  "types": "./dist/src/index.d.ts"
 }

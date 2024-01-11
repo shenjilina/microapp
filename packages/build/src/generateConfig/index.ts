@@ -2,8 +2,8 @@
  * @Author: shenjilin-home
  * @Date: 2024-01-05 22:31:49
  * @LastEditors: shenjilin-home
- * @LastEditTime: 2024-01-10 22:09:14
- * @Description:
+ * @LastEditTime: 2024-01-11 23:14:09
+ * @Description: build 模块的出口 整合构建配置
  */
 import { mergeConfig, UserConfig } from 'vite';
 import { PackageJson } from 'type-fest';

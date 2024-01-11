@@ -11,7 +11,11 @@
     "lint:script": "eslint --ext .js,.jsx,.ts,.tsx,.vue --fix ./",
     "lint:style": "stylelint --fix ./**/*.{css,scss,vue,html}",
     "dev:demo": "pnpm --filter @microappui/demo run dev",
-    "build:ui": "pnpm run type:src && pnpm --filter ./packages/** run build && pnpm run mv-type",
+    "build:package": "vite build --mode package",
+    "build:full": "vite build --mode full",
+    "build:full-min": "vite build --mode full-min",
+    "build": "pnpm run build:package && pnpm run build:full && pnpm run build:full-min",
+    "build:ui": "pnpm run type:src && pnpm --filter ./packages/** run build",
     "type:node": "tsc -p tsconfig.node.json --noEmit --composite false",
     "type:src": "pnpm run clean:type && vue-tsc -p tsconfig.src.json --composite false --declaration --emitDeclarationOnly"
   },
