@@ -1,0 +1,13 @@
+{
+  "name": "@microappui/docs",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev . --host",
+    "build": "vitepress build .",
+    "preview": "vitepress preview . --host"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vitepress": "^1.0.1"
+  }
+}
