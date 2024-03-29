@@ -71,7 +71,10 @@ importers:
 
   packages/docs:
     specifiers:
+      '@stoneui/ui': workspace:^
       vitepress: ^1.0.1
+    dependencies:
+      '@stoneui/ui': link:../ui
     devDependencies:
       vitepress: 1.0.1_badd9c96b6c9ed8ad941f7a73194aed8
 

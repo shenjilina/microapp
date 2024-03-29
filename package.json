@@ -11,6 +11,7 @@
     "lint:script": "eslint --ext .js,.jsx,.ts,.tsx,.vue --fix ./",
     "lint:style": "stylelint --fix ./**/*.{css,scss,vue,html}",
     "dev:demo": "pnpm --filter @stoneui/demo run dev",
+    "dev:docs": "pnpm --filter @stoneui/docs run dev",
     "build:package": "vite build --mode package",
     "build:full": "vite build --mode full",
     "build:full-min": "vite build --mode full-min",

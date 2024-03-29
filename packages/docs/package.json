@@ -6,7 +6,9 @@
     "build": "vitepress build .",
     "preview": "vitepress preview . --host"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@stoneui/ui": "workspace:^"
+  },
   "devDependencies": {
     "vitepress": "^1.0.1"
   }
