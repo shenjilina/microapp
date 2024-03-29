@@ -1,5 +1,5 @@
 {
-  "name": "@microappui/docs",
+  "name": "@stoneui/docs",
   "private": true,
   "scripts": {
     "dev": "vitepress dev . --host",

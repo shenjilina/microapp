@@ -26,7 +26,7 @@ export function getLib(
     fileName,
   } = getOptions(options);
 
-  // 文件名称，默认取 package.json 的 name 字段转换成 kebab-case：@microappui/build => microappui-build
+  // 文件名称，默认取 package.json 的 name 字段转换成 kebab-case：@stoneui/build => stoneui-build
   const finalName = fileName || kebabCase(packageJson.name || '');
 
   const libOptions: LibraryOptions = {
@@ -55,7 +55,7 @@ export function getLib(
  * @param fileName 文件名称
  * @param format 产物格式
  * @param buildMode 构建模式
- * return 产物文件名称 （microappui-build.mjs）
+ * return 产物文件名称 （stoneui-build.mjs）
  */
 export function getOutFileName(fileName: string, format: LibraryFormats, buildMode: GenerateConfigOptions['mode']) {
   const formatName = format as ('es' | 'umd');

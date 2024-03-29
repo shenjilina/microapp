@@ -1,11 +1,11 @@
 {
-  "name": "@microappui/demo",
+  "name": "@stoneui/demo",
   "private": true,
   "scripts": {
     "dev": "vite dev"
   },
   "dependencies": {
-    "@microappui/ui": "workspace:^"
+    "@stoneui/ui": "workspace:^"
   },
   "devDependencies": {
   }

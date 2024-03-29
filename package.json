@@ -1,5 +1,5 @@
 {
-  "name": "microappui",
+  "name": "stoneui",
   "private": true,
   "author": "shenjilin",
   "workspaces": [
@@ -10,7 +10,7 @@
     "mv-type": "tsx ./scripts/dts-mv.ts",
     "lint:script": "eslint --ext .js,.jsx,.ts,.tsx,.vue --fix ./",
     "lint:style": "stylelint --fix ./**/*.{css,scss,vue,html}",
-    "dev:demo": "pnpm --filter @microappui/demo run dev",
+    "dev:demo": "pnpm --filter @stoneui/demo run dev",
     "build:package": "vite build --mode package",
     "build:full": "vite build --mode full",
     "build:full-min": "vite build --mode full-min",

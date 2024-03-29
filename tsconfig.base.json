@@ -38,7 +38,7 @@
     "types": [],
     // 路径别名设置
     "paths": {
-      "@microappui/*": ["packages/*/src"]
+      "@stoneui/*": ["packages/*/src"]
     }
   }
 }

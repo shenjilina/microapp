@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {
   Button,
-} from '@microappui/ui';
+} from '@stoneui/ui';
 </script>
 
 <template>

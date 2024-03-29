@@ -15,7 +15,7 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: /^@microappui\/(.+)$/,
+        find: /^@stoneui\/(.+)$/,
         replacement: join(__dirname, '../..', 'packages', '$1', 'src'),
       },
     ],

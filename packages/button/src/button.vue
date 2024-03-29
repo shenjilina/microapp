@@ -14,7 +14,7 @@
 -->
 <script setup lang="ts">
 // packages/button/src/button.vue
-import { hello } from '@microappui/shared';
+import { hello } from '@stoneui/shared';
 
 const props = withDefaults(defineProps<{
   text?: string;

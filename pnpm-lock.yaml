@@ -65,9 +65,9 @@ importers:
 
   packages/button:
     specifiers:
-      '@microappui/shared': workspace:^
+      '@stoneui/shared': workspace:^
     dependencies:
-      '@microappui/shared': link:../shared
+      '@stoneui/shared': link:../shared
 
   packages/docs:
     specifiers:
@@ -85,17 +85,17 @@ importers:
 
   packages/ui:
     specifiers:
-      '@microappui/button': workspace:^
-      '@microappui/shared': workspace:^
+      '@stoneui/button': workspace:^
+      '@stoneui/shared': workspace:^
     dependencies:
-      '@microappui/button': link:../button
-      '@microappui/shared': link:../shared
+      '@stoneui/button': link:../button
+      '@stoneui/shared': link:../shared
 
   project/vue-demo:
     specifiers:
-      '@microappui/ui': workspace:^
+      '@stoneui/ui': workspace:^
     dependencies:
-      '@microappui/ui': link:../../packages/ui
+      '@stoneui/ui': link:../../packages/ui
 
 packages:
 

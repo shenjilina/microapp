@@ -1,21 +1,21 @@
 {
-  "name": "@microappui/button",
+  "name": "@stoneui/button",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "build": "vite build"
   },
-  "main": "./dist/microappui-button.umd.js",
-  "module": "./dist/microappui-button.mjs",
+  "main": "./dist/stoneui-button.umd.js",
+  "module": "./dist/stoneui-button.mjs",
   "types": "./dist/src/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/microappui-button.umd.js",
-      "import": "./dist/microappui-button.mjs",
+      "require": "./dist/stoneui-button.umd.js",
+      "import": "./dist/stoneui-button.mjs",
       "types": "./dist/src/index.d.ts"
     }
   },
   "dependencies": {
-    "@microappui/shared": "workspace:^"
+    "@stoneui/shared": "workspace:^"
   }
 }

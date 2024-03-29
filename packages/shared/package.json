@@ -1,16 +1,16 @@
 {
-  "name": "@microappui/shared",
+  "name": "@stoneui/shared",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "build": "vite build"
   },
-  "main": "./dist/microappui-shared.umd.js",
-  "module": "./dist/microappui-shared.mjs",
+  "main": "./dist/stoneui-shared.umd.js",
+  "module": "./dist/stoneui-shared.mjs",
   "exports": {
     ".": {
-      "require": "./dist/microappui-shared.umd.js",
-      "import": "./dist/microappui-shared.mjs",
+      "require": "./dist/stoneui-shared.umd.js",
+      "import": "./dist/stoneui-shared.mjs",
       "types": "./dist/src/index.d.ts"
     }
   },

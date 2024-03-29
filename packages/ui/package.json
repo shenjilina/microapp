@@ -1,20 +1,20 @@
 {
-  "name": "@microappui/ui",
+  "name": "@stoneui/ui",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "build": "vite build"
   },
-  "main": "./dist/microapp-ui.umd.js",
-  "module": "./dist/microapp-ui.mjs",
+  "main": "./dist/stone-ui.umd.js",
+  "module": "./dist/stone-ui.mjs",
   "exports": {
     ".": {
-      "require": "./dist/microapp-ui.umd.js",
-      "module": "./dist/microapp-ui.mjs"
+      "require": "./dist/stone-ui.umd.js",
+      "module": "./dist/stone-ui.mjs"
     }
   },
   "dependencies": {
-    "@microappui/button": "workspace:^",
-    "@microappui/shared": "workspace:^"
+    "@stoneui/button": "workspace:^",
+    "@stoneui/shared": "workspace:^"
   }
 }

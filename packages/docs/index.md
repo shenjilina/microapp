@@ -5,15 +5,15 @@
 # VitePress 默认主题的首页模板：https://vitepress.dev/reference/default-theme-layout#home-layout
 layout: home
 
-title: MicroappUI
+title: StoneUI
 
 hero:
-  name: MicroappUI
+  name: StoneUI
   text: Vue3 组件库
   tagline: 从 0 到 1 搭建 Vue 组件库
   image:
     src: /logo.png
-    alt: MicroappUI
+    alt: StoneUI
   actions:
     - theme: brand
       text: 指南
@@ -29,6 +29,6 @@ hero:
       link: /playground
     - theme: alt
       text: Github
-      link: https://github.com/shenjilina/microapp.git
+      link: https://github.com/shenjilina/stone.git
 ---
 
